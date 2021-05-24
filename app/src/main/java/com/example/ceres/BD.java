@@ -15,14 +15,14 @@ public class BD {
         bd = auxBd.getWritableDatabase();
     }
 
-        public void inserir(Tela_Cadastro usuario){
+        public void inserir(Usuario usuario){
         ContentValues valores = new ContentValues();
-        valores.put("nome", usuario.nome_cliente);
-        valores.put("email", usuario.email_cliente);
-        valores.put("senha", usuario.senha_cliente);
-        valores.put("cep", usuario.cep_cliente);
-        valores.put("cpf", usuario.cpf_cliente);
-        valores.put("fone", usuario.fone_cliente);
+        valores.put("nome", usuario.getNome());
+        valores.put("email", usuario.getEmail());
+        valores.put("senha", usuario.getSenha());
+        valores.put("cep", usuario.getCep());
+        valores.put("cpf", usuario.getCpf());
+        valores.put("fone", usuario.getFone());
         bd.insert("usuario", null, valores);
     }
 /*
@@ -33,11 +33,11 @@ public class BD {
 
         bd.update("usuario", valores, "_id = ?", new String[]{""+usuario.getId()});
     }
-
-    public void deletar(Tela_Cadastro usuario){
+*/
+    public void deletar(Usuario usuario){
         bd.delete("usuario", "_id = "+usuario.getId(), null);
     }
-
+/*
     public List<Usuario> buscar(){
         List<Usuario> list = new ArrayList<Usuario>();
         String[] colunas = new String[]{"_id", "nome", "email"};

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.content.Intent;
 import android.widget.EditText;
 
 public class Tela_Inicial extends AppCompatActivity{
@@ -26,15 +27,19 @@ public class Tela_Inicial extends AppCompatActivity{
 
         b_criar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-            //inserir código para abrir a tela de cadastro
+            public void onClick(View view) {
+                Intent secondActivity = new Intent(Tela_Inicial.this, Tela_Cadastro.class);
+                startActivity(secondActivity);
             }
         });
 
         b_entrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            //inserir código para fazer a pesquisa no BD
+                /* Código para abrir a tela com oo Perfil e Dados de Clientes OBS: Adaptar
+                Intent secondActivity = new Intent(Tela_Inicial.this, Tela_Dados_Cliente.class);
+                startActivity(secondActivity);
+                }*/
             }
         });
     }
