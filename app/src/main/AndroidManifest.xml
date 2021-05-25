@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".NewUsuario"/>
+
+        <activity android:name=".AlagoasActivity"/>
+        <activity android:name=".BahiaActivity"/>
+        <activity android:name=".CearaActivity"/>
+
+        <activity android:name=".RestauranteActivity"/>
+        <activity android:name=".RestaurantePortoActivity"/>
+        <activity android:name=".RestauranteCozinhaActivity"/>
+
+        <activity android:name=".SururuActivity"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
