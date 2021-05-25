@@ -97,13 +97,14 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/open_sans_bold"
         android:text="Principais Pratos"
         android:textColor="#F44336"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        tools:layout_editor_absoluteX="34dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -112,11 +113,11 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="33dp"
-        android:onClick="sururuPage"
+        android:onClick="acacaPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:srcCompat="@drawable/sururu_ao_coco" />
+        app:srcCompat="@drawable/acaca" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -125,11 +126,11 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="33dp"
-        android:onClick="pituzadaPage"
+        android:onClick="acarajePage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/pituzada" />
+        app:srcCompat="@drawable/acaraje" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -138,10 +139,10 @@
         android:layout_marginStart="33dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="34dp"
-        android:onClick="moquecaPage"
+        android:onClick="boboPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/moqueca_de_siri" />
+        app:srcCompat="@drawable/bobo_de_camarao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

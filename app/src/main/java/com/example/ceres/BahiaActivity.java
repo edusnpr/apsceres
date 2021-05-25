@@ -15,12 +15,17 @@ public class BahiaActivity extends AppCompatActivity {
 
 
     public void voltarInicio(View view) {
-        Intent intent = new Intent(com.example.ceres.BahiaActivity.this, MenuActivity.class);
+        Intent intent = new Intent(BahiaActivity.this, MenuActivity.class);
         startActivity(intent);
     }
 
     public void restaurantePage(View view) {
-        Intent intent = new Intent(com.example.ceres.BahiaActivity.this, RestaurantePortoActivity.class);
+        Intent intent = new Intent(BahiaActivity.this, RestaurantePortoActivity.class);
+        startActivity(intent);
+
+    }
+    public void acarajePage(View view){
+        Intent intent = new Intent(BahiaActivity.this, AcarajeActivity.class);
         startActivity(intent);
     }
 }

@@ -153,6 +153,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/sururu_ao_coco" />
+        app:srcCompat="@drawable/sururu_ao_coco"
+        android:onClick="sururuPage"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

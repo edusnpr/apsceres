@@ -9,7 +9,7 @@ public class ParaibaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ceara_main);
+        setContentView(R.layout.paraiba_main);
     }
 
 
@@ -19,7 +19,11 @@ public class ParaibaActivity extends AppCompatActivity {
     }
 
     public void restaurantePage(View view) {
-        Intent intent = new Intent(ParaibaActivity.this, RestauranteCozinhaActivity.class);
+        Intent intent = new Intent(ParaibaActivity.this, RestauranteBatoreActivity.class);
+        startActivity(intent);
+    }
+    public void pratoPage(View view) {
+        Intent intent = new Intent(ParaibaActivity.this, BaiaoActivity.class);
         startActivity(intent);
     }
 }

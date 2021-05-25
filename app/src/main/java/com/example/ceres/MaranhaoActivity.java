@@ -9,7 +9,7 @@ public class MaranhaoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ceara_main);
+        setContentView(R.layout.maranhao_main);
     }
 
 
@@ -19,7 +19,11 @@ public class MaranhaoActivity extends AppCompatActivity {
     }
 
     public void restaurantePage(View view) {
-        Intent intent = new Intent(MaranhaoActivity.this, RestauranteCozinhaActivity.class);
+        Intent intent = new Intent(MaranhaoActivity.this, RestauranteArretadoActivity.class);
+        startActivity(intent);
+    }
+    public void pratoPage(View view) {
+        Intent intent = new Intent(MaranhaoActivity.this, MoquecaMarActivity.class);
         startActivity(intent);
     }
 }

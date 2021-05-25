@@ -16,19 +16,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActivity"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".NewUsuario"/>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".NewUsuario" />
 
-        <activity android:name=".AlagoasActivity"/>
-        <activity android:name=".BahiaActivity"/>
-        <activity android:name=".CearaActivity"/>
+        <activity android:name=".AlagoasActivity" />
+        <activity android:name=".BahiaActivity" />
+        <activity android:name=".CearaActivity" />
+        <activity android:name=".MaranhaoActivity" />
+        <activity android:name=".ParaibaActivity" />
+        <activity android:name=".PernambucoActivity" />
+        <activity android:name=".PiauiActivity" />
+        <activity android:name=".RioGrdNActivity" />
+        <activity android:name=".SergipeActivity" />
 
-        <activity android:name=".RestauranteActivity"/>
-        <activity android:name=".RestaurantePortoActivity"/>
-        <activity android:name=".RestauranteCozinhaActivity"/>
+        <activity android:name=".RestauranteActivity" />
+        <activity android:name=".RestaurantePortoActivity" />
+        <activity android:name=".RestauranteCozinhaActivity" />
+        <activity android:name=".RestauranteArretadoActivity" />
+        <activity android:name=".RestauranteBatoreActivity" />
+        <activity android:name=".RestauranteJecaActivity" />
+        <activity android:name=".RestauranteMariasActivity" />
+        <activity android:name=".RestauranteRecantoActivity" />
+        <activity android:name=".RestauranteLampiaoActivity" />
 
-        <activity android:name=".SururuActivity"/>
+        <activity android:name=".SururuActivity" />
+        <activity android:name=".MoquecaSiriActivity" />
+        <activity android:name=".PituzadaActivity" />
+
+        <activity android:name=".AcacaActivity" />
+        <activity android:name=".AcarajeActivity" />
+        <activity android:name=".BoboActivity" />
+
+        <activity android:name=".TapiocaActivity" />
+        <activity android:name=".RapaduraActivity" />
+        <activity android:name=".CarneSolActivity" />
+
+        <activity android:name=".ArrumadinhoActivity" />
+        <activity android:name=".BaiaoActivity" />
+        <activity android:name=".ArrozDoceActivity" />
+
+        <activity android:name=".PeixadaActivity" />
+        <activity android:name=".MoquecaMarActivity" />
+        <activity android:name=".ArrozActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

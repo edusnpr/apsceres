@@ -17,16 +17,16 @@ public class RestauranteCozinhaActivity extends AppCompatActivity {
         Intent intent = new Intent(RestauranteCozinhaActivity.this, MenuActivity.class);
         startActivity(intent);
     }
-    public void sururuPage(View view) {
-        Intent intent = new Intent(RestauranteCozinhaActivity.this, SururuActivity.class);
+    public void tapiocaPage(View view) {
+        Intent intent = new Intent(RestauranteCozinhaActivity.this, TapiocaActivity.class);
         startActivity(intent);
     }
-    public void pituzadaPage(View view) {
-        Intent intent = new Intent(RestauranteCozinhaActivity.this, MainActivity.class);
+    public void rapaduraPage(View view) {
+        Intent intent = new Intent(RestauranteCozinhaActivity.this, RapaduraActivity.class);
         startActivity(intent);
     }
-    public void moquecaPage(View view) {
-        Intent intent = new Intent(RestauranteCozinhaActivity.this, MainActivity.class);
+    public void carneSolPage(View view) {
+        Intent intent = new Intent(RestauranteCozinhaActivity.this, CarneSolActivity.class);
         startActivity(intent);
     }
 }

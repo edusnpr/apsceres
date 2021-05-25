@@ -15,10 +15,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
     public void loginPage(View view) {
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }
+
     public void cadastarPage(View view) {
         Intent intent = new Intent(MainActivity.this, NewUsuario.class);
         startActivity(intent);

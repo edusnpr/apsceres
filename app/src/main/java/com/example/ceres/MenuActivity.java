@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class MenuActivity extends AppCompatActivity {
     Button alagoasPage, bahiaPage, cearaPage, maranhaoPage, paraibaPage, pernambucoPage, piauiPage, rioGrdNPage, sergipePage;
 

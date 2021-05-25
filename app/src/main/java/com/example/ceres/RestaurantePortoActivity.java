@@ -18,16 +18,16 @@ public class RestaurantePortoActivity extends AppCompatActivity {
         Intent intent = new Intent(RestaurantePortoActivity.this, MainActivity.class);
         startActivity(intent);
     }
-    public void sururuPage(View view) {
-        Intent intent = new Intent(RestaurantePortoActivity.this, SururuActivity.class);
+    public void acacaPage(View view) {
+        Intent intent = new Intent(RestaurantePortoActivity.this, AcacaActivity.class);
         startActivity(intent);
     }
-    public void pituzadaPage(View view) {
-        Intent intent = new Intent(RestaurantePortoActivity.this, MainActivity.class);
+    public void acarajePage(View view) {
+        Intent intent = new Intent(RestaurantePortoActivity.this, AcarajeActivity.class);
         startActivity(intent);
     }
-    public void moquecaPage(View view) {
-        Intent intent = new Intent(RestaurantePortoActivity.this, MainActivity.class);
+    public void boboPage(View view) {
+        Intent intent = new Intent(RestaurantePortoActivity.this, BoboActivity.class);
         startActivity(intent);
     }
 }

@@ -154,6 +154,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/sururu_ao_coco" />
+        app:srcCompat="@drawable/acaraje"
+        android:onClick="acarajePage"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
