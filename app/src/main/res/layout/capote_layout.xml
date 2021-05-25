@@ -3,23 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#F6F6F6">
+    android:layout_height="match_parent">
 
-
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="ARROZ CAPOTE"
+        android:textColor="#F44336"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comidas_do_jeca" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="344dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/arrozcapote_banner" />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_menu"
         android:layout_width="410dp"
@@ -59,90 +71,48 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
-            app:srcCompat="@drawable/ic_baseline_home_24" />
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            android:onClick="voltarInicio"/>
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView16"
         android:layout_width="344dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="22dp"
         android:fontFamily="@font/open_sans"
-        android:onClick="voltarInicio"
-        android:text="A Casa do Sabor foi criada em 2005, por Ana Maria e Fausto Silva para honrar os sabores com que a dupla cresceu comendo em Alagoas."
+        android:text="Sururu é um molusco muito comum no nordeste, sendo um dos principais pratos de Alagoas. Este marisco é patrimônio imaterial de Alagoas devido a sua importância na culinária e na economia."
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView17"
         android:layout_width="344dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="22dp"
         android:fontFamily="@font/open_sans"
-        android:text="O que começou como um pequeno negócio tornou-se um dos principais pontos de gastronomia nordestina em São Paulo."
+        android:text="Esse prato é preaparado com leite de coco, cebola, limões, alho, tomate, pimentão, louro e claro, coentro."
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
-    <TextView
-        android:id="@+id/textView14"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="25dp"
-        android:fontFamily="@font/open_sans_bold"
-        android:text="Principais Pratos"
-        android:textColor="#F44336"
-        android:textSize="20sp"
+        android:backgroundTint="#FF5722"
+        android:text="Pedir"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="33dp"
-        android:onClick="pamonhaPage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:srcCompat="@drawable/pamonha" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="33dp"
-        android:onClick="escondidoPage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/escondido" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="34dp"
-        android:onClick="buchadaPage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/buchada" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 </androidx.constraintlayout.widget.ConstraintLayout>

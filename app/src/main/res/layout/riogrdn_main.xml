@@ -142,7 +142,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:srcCompat="@drawable/cozinhamanuela" />
+        app:srcCompat="@drawable/recanto_meu_nordeste" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -154,6 +154,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/sururu_ao_coco" />
+        app:srcCompat="@drawable/pacocacarnesol"
+        android:onClick="pratoPage"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

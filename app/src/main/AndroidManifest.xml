@@ -60,6 +60,22 @@
         <activity android:name=".MoquecaMarActivity" />
         <activity android:name=".ArrozActivity" />
 
+        <activity android:name=".PamonhaActivity" />
+        <activity android:name=".EscondidoActivity" />
+        <activity android:name=".BuchadaActivity" />
+
+        <activity android:name=".PacocaActivity" />
+        <activity android:name=".FeijaoActivity" />
+        <activity android:name=".CuscuzActivity" />
+
+        <activity android:name=".NoqueActivity" />
+        <activity android:name=".CocadaActivity" />
+        <activity android:name=".CaldoActivity" />
+
+        <activity android:name=".CapoteActivity" />
+        <activity android:name=".BodeActivity" />
+        <activity android:name=".MariaActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

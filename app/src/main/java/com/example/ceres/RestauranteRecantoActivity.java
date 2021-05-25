@@ -20,18 +20,18 @@ public class RestauranteRecantoActivity  extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sururuPage(View view) {
-        Intent intent = new Intent(RestauranteRecantoActivity.this, SururuActivity.class);
+    public void pacoca(View view) {
+        Intent intent = new Intent(RestauranteRecantoActivity.this, PacocaActivity.class);
         startActivity(intent);
     }
 
-    public void pituzadaPage(View view) {
-        Intent intent = new Intent(RestauranteRecantoActivity.this, MainActivity.class);
+    public void feijao(View view) {
+        Intent intent = new Intent(RestauranteRecantoActivity.this, FeijaoActivity.class);
         startActivity(intent);
     }
 
-    public void moquecaPage(View view) {
-        Intent intent = new Intent(RestauranteRecantoActivity.this, MainActivity.class);
+    public void cuscuz(View view) {
+        Intent intent = new Intent(RestauranteRecantoActivity.this, CuscuzActivity.class);
         startActivity(intent);
     }
 }

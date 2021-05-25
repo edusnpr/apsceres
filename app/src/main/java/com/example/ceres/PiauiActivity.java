@@ -12,14 +12,17 @@ public class PiauiActivity extends AppCompatActivity {
         setContentView(R.layout.piaui_main);
     }
 
-
     public void voltarInicio(View view) {
         Intent intent = new Intent(PiauiActivity.this, MenuActivity.class);
         startActivity(intent);
     }
 
     public void restaurantePage(View view) {
-        Intent intent = new Intent(PiauiActivity.this, RestauranteCozinhaActivity.class);
+        Intent intent = new Intent(PiauiActivity.this, RestauranteLampiaoActivity.class);
+        startActivity(intent);
+    }
+    public void pratoPage(View view) {
+        Intent intent = new Intent(PiauiActivity.this, BodeActivity.class);
         startActivity(intent);
     }
 }

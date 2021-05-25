@@ -18,18 +18,18 @@ public class RestauranteJecaActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sururuPage(View view) {
-        Intent intent = new Intent(RestauranteJecaActivity.this, SururuActivity.class);
+    public void pamonhaPage(View view) {
+        Intent intent = new Intent(RestauranteJecaActivity.this, PamonhaActivity.class);
         startActivity(intent);
     }
 
-    public void pituzadaPage(View view) {
-        Intent intent = new Intent(RestauranteJecaActivity.this, MainActivity.class);
+    public void escondidoPage(View view) {
+        Intent intent = new Intent(RestauranteJecaActivity.this, EscondidoActivity.class);
         startActivity(intent);
     }
 
-    public void moquecaPage(View view) {
-        Intent intent = new Intent(RestauranteJecaActivity.this, MainActivity.class);
+    public void buchadaPage(View view) {
+        Intent intent = new Intent(RestauranteJecaActivity.this, BuchadaActivity.class);
         startActivity(intent);
     }
 }

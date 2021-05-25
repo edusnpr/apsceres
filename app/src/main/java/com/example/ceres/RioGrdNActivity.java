@@ -20,7 +20,11 @@ public class RioGrdNActivity extends AppCompatActivity {
     }
 
     public void restaurantePage(View view) {
-        Intent intent = new Intent(RioGrdNActivity.this, RestauranteCozinhaActivity.class);
+        Intent intent = new Intent(RioGrdNActivity.this, RestauranteRecantoActivity.class);
+        startActivity(intent);
+    }
+    public void pratoPage(View view) {
+        Intent intent = new Intent(RioGrdNActivity.this, PacocaActivity.class);
         startActivity(intent);
     }
 }

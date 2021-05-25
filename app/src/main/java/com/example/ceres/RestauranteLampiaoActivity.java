@@ -20,18 +20,18 @@ public class RestauranteLampiaoActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sururuPage(View view) {
-        Intent intent = new Intent(RestauranteLampiaoActivity.this, SururuActivity.class);
+    public void capotePage(View view) {
+        Intent intent = new Intent(RestauranteLampiaoActivity.this, CapoteActivity.class);
         startActivity(intent);
     }
 
-    public void pituzadaPage(View view) {
-        Intent intent = new Intent(RestauranteLampiaoActivity.this, MainActivity.class);
+    public void bodePage(View view) {
+        Intent intent = new Intent(RestauranteLampiaoActivity.this, BodeActivity.class);
         startActivity(intent);
     }
 
-    public void moquecaPage(View view) {
-        Intent intent = new Intent(RestauranteLampiaoActivity.this, MainActivity.class);
+    public void mariaPage(View view) {
+        Intent intent = new Intent(RestauranteLampiaoActivity.this, MariaActivity.class);
         startActivity(intent);
     }
 }

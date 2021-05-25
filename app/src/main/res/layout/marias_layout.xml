@@ -113,11 +113,11 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="33dp"
-        android:onClick="sururuPage"
+        android:onClick="noquePage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:srcCompat="@drawable/sururu_ao_coco" />
+        app:srcCompat="@drawable/nhoquefrutos" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -126,11 +126,11 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="33dp"
-        android:onClick="pituzadaPage"
+        android:onClick="cocadaPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/pituzada" />
+        app:srcCompat="@drawable/cocadamolepreta" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -139,10 +139,10 @@
         android:layout_marginStart="33dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="34dp"
-        android:onClick="moquecaPage"
+        android:onClick="caldoPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/moqueca_de_siri" />
+        app:srcCompat="@drawable/caldodefrutosdomar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

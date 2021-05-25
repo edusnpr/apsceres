@@ -18,17 +18,17 @@ public class RestauranteMariasActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sururuPage(View view) {
+    public void noque(View view) {
         Intent intent = new Intent(RestauranteMariasActivity.this, SururuActivity.class);
         startActivity(intent);
     }
 
-    public void pituzadaPage(View view) {
+    public void cocadaPage(View view) {
         Intent intent = new Intent(RestauranteMariasActivity.this, MainActivity.class);
         startActivity(intent);
     }
 
-    public void moquecaPage(View view) {
+    public void caldoPage(View view) {
         Intent intent = new Intent(RestauranteMariasActivity.this, MainActivity.class);
         startActivity(intent);
     }

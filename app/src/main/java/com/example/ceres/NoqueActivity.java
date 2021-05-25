@@ -3,28 +3,25 @@ package com.example.ceres;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SergipeActivity extends AppCompatActivity {
+public class NoqueActivity extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sergipe_main);
+        setContentView(R.layout.noque_layout);
+
     }
 
 
     public void voltarInicio(View view) {
-        Intent intent = new Intent(SergipeActivity.this, MenuActivity.class);
+        Intent intent = new Intent(NoqueActivity.this, MenuActivity.class);
         startActivity(intent);
     }
-
     public void restaurantePage(View view) {
-        Intent intent = new Intent(SergipeActivity.this, RestauranteMariasActivity.class);
-        startActivity(intent);
-    }
-    public void pratoPage(View view) {
-        Intent intent = new Intent(SergipeActivity.this, CaldoActivity.class);
+        Intent intent = new Intent(NoqueActivity.this, RestauranteMariasActivity.class);
         startActivity(intent);
     }
 }
